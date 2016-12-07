@@ -1,0 +1,12 @@
+{
+  "name": "flowdock",
+  "version": "1.0.0",
+  "description": "A client for flowdock that runs on linux",
+  "main": "index.js",
+  "repository": "https://github.com/omidfi/flowdock-linux.git",
+  "author": "Omid Hezaveh <omid.hezaveh@futurice.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nativefier": "^7.0.1"
+  }
+}
