@@ -14,7 +14,7 @@ To create your linux client for Flowdock you need Node and npm installed, then r
 ```bash
 git clone https://github.com/omidfi/flowdock-linux.git && cd flowdock-linux
 npm install
-node indexa.js
+node index.js
 ```
 
 Your flowdock client will be ready in a folder named something like Flowdock-linux... in flowdock
