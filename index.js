@@ -7,7 +7,7 @@ const options = {
   platform: '', // defaults to the current system
   arch: '', // defaults to the current system
   version: '1.0.0',
-  out: '.',
+  out: './dist',
   overwrite: false,
   asar: false, // see conceal
   icon: 'flowdock.png',
@@ -20,7 +20,9 @@ const options = {
   ignoreCertificate: false,
   insecure: false,
   honest: false,
-  zoom: 1.0
+  zoom: 1.0,
+  inject: ['./custom-styles.css', './custom-scripts.js']
+
 };
 
 nativefier(options, function(error, appPath) {

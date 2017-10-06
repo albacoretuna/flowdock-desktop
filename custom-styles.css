@@ -1,0 +1,9 @@
+/*
+ * hide all notifications,
+ * like name changes, and joined flows etc
+ *
+ * */
+li.not-rethreadable {
+/*  display: none !important; */
+}
+
