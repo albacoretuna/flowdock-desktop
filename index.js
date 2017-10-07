@@ -21,8 +21,8 @@ const options = {
   insecure: false,
   honest: false,
   zoom: 1.0,
-  inject: ['./custom-styles.css', './custom-scripts.js']
-
+  inject: ['./custom-styles.css', './custom-scripts.js'],
+  singleInstance: true
 };
 
 nativefier(options, function(error, appPath) {
