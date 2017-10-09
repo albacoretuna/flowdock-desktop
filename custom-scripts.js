@@ -1,11 +1,7 @@
 (function ($) {
-    function addSpellCheck() {
-      $('.message-input').attr('spellcheck', 'true');
-    }
 	$(document).ready(function() {
 		window.setInterval(() => {
 			hideNotifications();
-		        addSpellCheck();
 		}, 3000)
 	});
 
