@@ -1,6 +1,6 @@
 {
   "name": "flowdock",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A client for flowdock that runs on linux",
   "main": "index.js",
   "repository": "https://github.com/omidfi/flowdock-linux.git",
