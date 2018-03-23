@@ -7,6 +7,6 @@
   "author": "Omid Hezaveh <omid.hezaveh@futurice.com>",
   "license": "MIT",
   "dependencies": {
-    "nativefier": "^7.0.1"
+    "nativefier": "7.5.4"
   }
 }

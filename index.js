@@ -6,7 +6,7 @@ const options = {
   targetUrl: 'http://flowdock.com/app/',
   platform: '', // defaults to the current system
   arch: '', // defaults to the current system
-  version: '2.0.0',
+  version: '3.0.0',
   out: './dist',
   overwrite: true,
   asar: false, // see conceal
